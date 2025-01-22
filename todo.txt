@@ -1,0 +1,19 @@
+1. rysowanie mapy podsawowe ruchy  (strza³ki) -1pkt
+2. klawisz: esc - wyjœcie ; n - nowa gra - 1pkt
+3. przy wjechaniu w œcianê - skrêt w prawo, jeœli nie mo¿na skrêciæ w prawo - skrêt w lewo - 1pkt
+4. gdy w¹¿ wjedzie w siebie - koniec gry - 1pkt
+5. wyœwietlanie czasu, zaimplementowanych punktów - 1pkt
+6. niebieskie kropki - wyd³u¿enie wê¿a - 1pkt
+7. po x up³ywie czasu w¹¿ przyspesza o y procent - 1pkt
+8. czerwone kropki - jakiœ bonus - 2pkt
+9. punkty przez jedzenie kropek - 1pkt
+
+struktury:
+ -sdl
+ -w¹¿
+ -kropka:
+    -typ : 1 - nieb ; 2 - czerw 1. ; 3 - czerw 2.
+	-pozycja
+	-punkty
+	-pokaz : 0/1
+ -gra
